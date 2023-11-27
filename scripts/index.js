@@ -1,6 +1,6 @@
 const messageNode = document.getElementById("message");
 
-const render = (message = "", node = messgeNode) => {
+const render = (message = "", node = messageNode) => {
   messageNode.textContent = message;
 };
 
